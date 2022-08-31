@@ -1,0 +1,170 @@
+#title {
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 2rem;
+  color: white;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 3.5rem;
+}
+
+.download-button {
+  margin: 40px 0px;
+}
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position:relative;
+  z-index:0;
+  left:30%
+}
+
+
+
+/* features section */
+#features{
+  background-color: #fff;
+  position:relative;
+  z-index:1
+}
+.feature-box {
+  padding: 50px;
+  text-align: center;
+}
+
+.feature-box h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.feature-box i {
+  color: #ff4c68;
+}
+
+.feature-box p {
+  color: #555;
+}
+
+/* testimonial */
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.h {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 20px;
+}
+.card{
+  margin-bottom:20px;
+  text-align: center;
+}
+
+.press-image {
+  width: 15%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* pricing */
+#pricing{
+  margin-top:20px;
+  text-align:center;
+  font-family:'Montserrat', sans-serif;
+}
+.container-card{
+  padding-top:20px;
+}
+.card-header{
+  font-family:cursive;
+}
+.card-body p{
+  font-size: 20px;
+}
+.card card-body btn{
+  width:100%;
+}
+/* meida qurries */
+
+/* desktop screen */
+@media (min-width:1116px){
+  #title{
+    height:500px;
+  }
+  .title-image{
+    position:relative;
+  }
+}
+
+@media (max-width:1116px) and (min-width:991px){
+  #title{
+    position:static;
+  }
+  .btn{
+    width:100%;
+  }
+}
+@media (min-width:970px){
+  .buttons{
+    margin-left:20%;
+  }
+}
+@media (max-width:987px){
+  #title{
+    height:700px;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .title-image{
+    position:relative;
+    width:35%;
+    transform:rotate(0deg);
+    margin:auto;
+  }
+}
+#cta{
+  background-color:#FF4C68;
+}
+.cta{
+  text-align: center;
+  padding:30px;
+}
+footer{
+  text-align: center;
+  padding-top:20px;
+}
+.social{
+  padding:5px;
+  font-size: 30px;
+}
